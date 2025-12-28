@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- tipo do html -->
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- para aceitar acentos -->
+
+    <title>Carrinho simples</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- liga o css -->
+</head>
+
+<body>
+    <h1>Loja simples</h1>
+
+    <div class="produtos">
+        <div class="produto">
+            <h2>Camiseta</h2>
+            <p>Preço: R$ 50</p>
+
+            <!-- quando clicar chama o javascript -->
+            <button onclick="adicionarAoCarrinho('Camiseta', 50)">
+                Adicionar
+            </button>
+        </div>
+
+        <div class="produto">
+            <h2>Tênis</h2>
+            <p>Preço: R$ 120</p>
+
+            <button onclick="adicionarAoCarrinho('Tênis', 120)">
+                Adicionar
+            </button>
+        </div>
+    </div>
+
+    <h2>Carrinho</h2>
+
+    <!-- aqui aparece os produtos -->
+    <ul id="lista-carrinho"></ul>
+
+    <!-- aqui aparece o total -->
+    <p>Total: R$ <span id="total">0</span></p>
+
+    <script src="script.js"></script>
+    <!-- liga o javascript -->
+</body>
+</html>
