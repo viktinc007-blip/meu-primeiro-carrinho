@@ -10,6 +10,6 @@ Feito para praticar conceitos básicos de programação web e lógica de um carr
 ## Como usar
 Abra o arquivo `index.html` no navegador e experimente adicionar ou remover produtos.
 
-##Se quiser ver funcionado visite
+##Se quiser ver funcionando visite
 
 https://viktinc007-blip.github.io/meu-primeiro-carrinho/
